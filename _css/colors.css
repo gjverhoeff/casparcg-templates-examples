@@ -1,0 +1,64 @@
+.gradient-1{
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(191, 191, 191, 1) 100%);
+-webkit-background-clip: text;
+background-clip: text;
+color:transparent;
+}
+.gradient-2{
+background: -webkit-linear-gradient(top, rgba(227, 143, 79, 1) 0%, rgba(204, 100, 43,1) 100%);
+-webkit-background-clip: text;
+background-clip: text;
+color:transparent;
+}
+.gradient-3{
+background: -webkit-linear-gradient(top, rgba(103, 144, 238, 1) 0%, rgba(57, 88, 230,1) 100%);
+-webkit-background-clip: text;
+background-clip: text;
+color:transparent;
+}
+.gradient-4{
+background: -webkit-linear-gradient(top, rgba(59,182,80,1) 0%, rgba(18,154,35,1) 100%);
+-webkit-background-clip: text;
+background-clip: text;
+color:transparent;
+}
+.gradient-5{
+background: -webkit-linear-gradient(top, rgba(212,187,60,1) 0%, rgba(200,163,6,1) 100%);
+-webkit-background-clip: text;
+background-clip: text;
+color:transparent;
+}
+
+.white{
+color:white;
+}
+.black{
+color:black;
+}
+.grey{
+color:#2c2c2c;
+}
+.blue{
+color:#3a7ded;
+}
+.red{
+color:#f0321e;
+}
+.color-1{
+color:#EBEBEB;
+}
+.color-2{
+color:#303C46;
+}
+.color-3{
+color:#00FC72;
+}
+.purple{
+color:#2f0b37;
+}
+.pink{
+color:#db006a;
+}
+.redgeert{
+color:#f0321e;
+}

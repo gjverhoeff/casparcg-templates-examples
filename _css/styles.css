@@ -1,0 +1,132 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding:0;
+  text-transform:uppercase;
+  overflow:hidden;
+}
+body{
+  opacity:0.0;
+  -webkit-transform: translateZ(0);
+  will-change: transform, opacity;
+}
+#container{
+  overflow: hidden;
+  width:inherit;
+  height:inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: red; */
+}
+#content-container{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index: 20;
+  width:inherit;
+  height:inherit;
+  overflow:hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0;
+}
+#graphic-container{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index: 10;
+  width:inherit;
+  height:inherit;
+  overflow:hidden;
+}
+#canvas-foreground {
+  width:inherit;
+  height:inherit;
+  position:absolute;
+  top:0px;
+  left:0px;
+  z-index:4;
+  opacity: 0;
+}
+#canvas-background {
+  width:inherit;
+  height:inherit;
+  position:absolute;
+  top:0px;
+  left:0px;
+  z-index:3;
+  opacity:0;
+}
+#video-canvas {
+  width:inherit;
+  height:inherit;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+#video-main, #video-start, #video-loop, #video-stop {
+  position:absolute;
+  top:0;
+  left:0;
+  width:inherit;
+  height:inherit;
+  /* display: none; */
+}
+#video-start,#video-stop,#video-wipe{
+  z-index:3;
+  opacity:0;
+}
+#video-loop{
+  z-index:4;
+  opacity:0;
+}
+
+/* Scales fonts down by 50%, fixes jagged edges in CCG */
+.retina{
+  will-change: transform, opacity;
+	-webkit-transform: scale(0.5,0.5) translateZ(0);
+  -webkit-transform-origin: top left;
+  white-space: nowrap;
+}
+
+/*Render fix, chance of transformation activates GPU*/
+.renderer{
+  will-change: transform, opacity;
+	-webkit-transform: translateZ(0);
+}
+
+/* Sets origin */
+.origin-left{
+  -webkit-transform-origin: top left;  
+}
+.origin-right{
+  -webkit-transform-origin: top right;  
+}
+
+/* Centers text */
+.center{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Sets font scaling for different size screens */
+@media only screen and (min-width: 1441px) {
+  div {
+    font-size: 24px;
+  }
+  li {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 1440px) and (min-width: 1280px){
+  div {
+    font-size: 16px;
+  }
+  li {
+    font-size: 16px;
+  }
+}
+

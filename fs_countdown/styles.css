@@ -1,0 +1,24 @@
+
+.countdown-parent{
+    position: absolute;
+    left: -32%;
+    top: 63.9%;
+    overflow: hidden;
+    height: 219%;
+    width: 329.7%;
+    font-size: 774%;
+    text-align: center;
+}
+
+.text-parent{
+    position: absolute;
+    left: -32%;
+    top: 43.9%;
+    overflow: hidden;
+    height: 219%;
+    width: 329.7%;
+    font-size: 1334%;
+    text-align: center;
+}
+
+
