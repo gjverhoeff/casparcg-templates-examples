@@ -1,0 +1,24 @@
+
+
+#name-parent{
+    position: absolute;
+    overflow: hidden;
+    top: 84.3%;
+    left: 3.9%;
+    font-size: 266%;
+    height: 19%;
+    width: 46%;
+    text-align: left;
+}
+
+#twitter-parent{
+    position: absolute;
+    overflow: hidden;
+    top: 88.3%;
+    left: 3.9%;
+    font-size: 200%;
+    height: 19%;
+    width: 46%;
+    text-align: left;
+}
+
