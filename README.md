@@ -4,5 +4,5 @@ See this YouTube playlist for the current tutorials: https://www.youtube.com/pla
 
 CasparCG Version used (Overlays in the Package): https://drive.google.com/open?id=1jh-iB_jiTzQi3za24TIHp_cENwIjc_dH
 
-Also tested on CasparCG 2.2.0 stable release
+Also tested on CasparCG 2.2.0 and 2.3.0 stable release
 
