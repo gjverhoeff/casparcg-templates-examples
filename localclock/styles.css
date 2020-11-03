@@ -1,0 +1,16 @@
+
+.time-parent{
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    font-size: 1400%;
+    text-align: center;
+    color: green;
+}
+
+
+
+

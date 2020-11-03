@@ -1,0 +1,57 @@
+<head>
+
+  <link rel="stylesheet" type="text/css" href="../_css/styles.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <script>
+
+    // Template settings
+    var dev = false,
+      gotVideo = false,
+      gotImage = true,
+      gotLoop = false,
+      gotContent = true,
+      fadeIn = true,
+      fadeOut = true;
+
+  </script>
+
+</head>
+
+<body>
+  <div id="container">
+
+    <div id="content-container">
+
+      <div id='time-parent' class='retina time-parent'>
+        <span id='time' class='time'></span>
+      </div>
+
+    </div>
+
+    <div id="graphic-container"></div>
+
+  </div>
+
+  <!-- ### EXTERNAL LIBS ### -->
+
+  <!-- We are not using jquery 3 because of the Chromium version of CCG -->
+  <script src="../_js/jquery-3.0.0.min.js"></script>
+  <script src="../_js/jquery-ui.min.js"></script>
+  <!-- <script src="../_js/jquery.requestAnimationFrame.js"></script> -->
+  <!-- <script src="../_js/VideoFrame.min.js"></script> -->
+  <script src="../_js/jquery.countdown.js"></script>
+  <script src="../_js/jquery.countdown.min.js"></script>
+
+  <!-- ### RUNDOWN ### -->
+  <script src="rundown.js"></script>
+
+  <!-- ### ANIMATION CONTROLLER ### -->
+  <script src="../_js/video.controller.js"></script>
+
+  <!-- ### CASPAR ### -->
+  <script src="../_js/ccg.js"></script>
+
+
+
+</body>
